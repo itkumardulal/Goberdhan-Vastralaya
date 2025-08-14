@@ -7,10 +7,9 @@ import Cultural from '../components/Cultural'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
-
-const Index = () => {
+const Home = () => {
   return (
-   <>
+     <>
   <div className="min-h-screen">
       <Navbar />
       <main>
@@ -26,4 +25,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Home
